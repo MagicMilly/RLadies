@@ -93,16 +93,17 @@ dcpercent_annotationtext = data.frame(lab = c("42", "8", "50", "54%", "12%", "34
                                       publisher = c("dc"),
                                       align = c("Good", "Neutral", "Bad",
                                                 "Good", "Neutral", "Bad"),
-                                      percent = c(2.8, 47, 97, 4.2, 61, 96))
+                                      percent = c(2.8, 45.5, 97, 3.2, 61, 96))
 
 
 marvelpercent_annotationtext = data.frame(lab = c("30", "15", "55", "48", "21", "31"), 
                                           publisher = c("marvel"),
                                           align = c("Good", "Neutral", "Bad",
                                                     "Good", "Neutral", "Bad"),
-                                          percent = c(2.8, 35, 97, 2.8, 58, 97))
+                                          percent = c(2.8, 36, 97, 2.8, 58.3, 97))
 
 
 publisher_annotation = data.frame(lab = c("DC", "Marvel"), 
                                   publisher = c("dc", "marvel") ,
                                   align = c("Good"))
+
